@@ -1,0 +1,19 @@
+name: datavista
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - matplotlib
+  - seaborn
+  - plotly
+  - jinja2
+  - typer
+  - pytest
+  - pip
+  - pip:
+      - black
+      - mypy
+      - flake8
+      - build
+      - twine
